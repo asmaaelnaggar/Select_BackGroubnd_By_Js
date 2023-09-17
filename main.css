@@ -1,0 +1,21 @@
+.colors{
+    padding: 100px;
+    width: 20px;
+    margin: 10px auto;
+}
+
+.red{
+    background-color: red;
+    height: 30px;
+    width: 20px;
+}
+.green{
+    background-color: green;
+    height: 30px;
+    width: 20px;
+}
+.black{
+    background-color: black;
+    height: 30px;
+    width: 20px;
+}

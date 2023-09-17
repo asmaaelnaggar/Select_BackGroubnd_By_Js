@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>
+		Change background
+	</title>
+	<style>
+		body {
+            text-align: center;
+			font-size: 100px;
+            background-color: black;
+		}
+        label{
+            color: white;
+        }
+	</style>
+</head>
+<body>
+	<label for="selectColor">
+		Select a color:
+	</label>
+	<select id="selectColor"
+		onchange="changeColor()">
+		<option value="black">Black</option>
+		<option value="Red">Red</option>
+		<option value="green">Green</option>
+		<option value="Blue">Blue</option>
+		<option value="yellow">yellow</option>
+		<option value="firebrick">firebrick</option>
+		<option value="Pink">Pink</option>
+		<option value="fuchsia">fuchsia</option>
+		<option value="Orange">Orange</option>
+	</select>
+	<script src="main.js"></script>
+</body>
+</html>
